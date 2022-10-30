@@ -10,7 +10,7 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 32px;
+    padding: 20px 100px;
 
 }
 
@@ -42,33 +42,88 @@ ul {
     display: flex;
     background-color: #1F2937;
     color: white;
-    justify-content: space-evenly;
-    padding: 32px;
+    gap: 12px;
+    padding: 100px;
 }
 
-.hero h3 {
+.title {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: extra-bold;
+    font-weight: 900;
+    margin: 5px;
 }
 
-.hero p {
+.para {
     font-size: 18px;
     color: #Ef9faf8;
+    margin: 5px;
 }
 
-.sidebar {
+.sidebar,
+.image-section {
+    flex: 1;
+}
+
+
+.image-section {
     display: flex;
-    flex-direction: column;
-}
-
-.image-standIn {
+    align-items: center;
+    justify-content: center;
     background-color: grey;
-    width: 400px;
-    height: 200px;
+    color: white;
+
 }
 
 .footer {
     background-color: #1F2937;
     color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    margin: 8px 5px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.gallery {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.cards {
+    display: flex;
+
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 8px;
+    padding: 4px;
+}
+
+.card {
+    width: 140px;
+
+}
+
+
+.small-image {
+    width: 130px;
+    height: 130px;
+    border: solid #3882F6 4px;
+    border-radius: 16px;
+    margin-bottom: 4px;
+    padding: 4px;
+}
+
+.image-text {
+    padding: 4px;
 }
