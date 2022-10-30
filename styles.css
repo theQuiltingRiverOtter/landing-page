@@ -2,7 +2,7 @@ body {
     display: flex;
     height: 100vh;
     flex-direction: column;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 
 }
 
@@ -10,7 +10,7 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 15px 100px;
 
 }
 
@@ -40,10 +40,11 @@ ul {
 
 .hero {
     display: flex;
+    flex: 1;
     background-color: #1F2937;
     color: white;
     gap: 12px;
-    padding: 100px;
+    padding: 50px 100px;
 }
 
 .title {
@@ -81,7 +82,7 @@ ul {
 
 button {
     background-color: #3882F6;
-    color: white;
+    color: #E5E7EB;
     margin: 8px 5px;
     padding: 8px 16px;
     border-radius: 8px;
@@ -89,8 +90,9 @@ button {
 }
 
 .gallery {
-    padding: 100px;
+    padding: 20px 100px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     gap: 8px;
@@ -105,7 +107,7 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin: 8px;
+    margin: 4px;
     padding: 4px;
 }
 
@@ -126,4 +128,60 @@ button {
 
 .image-text {
     padding: 4px;
+}
+
+.quote-section {
+    background-color: #e5E7Eb;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.quote {
+    padding: 100px 300px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.person {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.blue-box {
+    margin: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border-radius: 12px;
+}
+
+.blue-box-button {
+    border: solid white 2px;
+    margin: 8px 5px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-box-title {
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+
+.footer p {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
 }
